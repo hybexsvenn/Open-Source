@@ -5,7 +5,7 @@ Installing Open WebUI, LiteLLM, NginxProxyManager &amp; n8n
 cd ~
 
 # Hämta skriptet
-curl -fsSL https://raw.githubusercontent.com/<ditt-repo-url>/setup.sh -o setup.sh
+curl -fsSL https://github.com/hybexsvenn/Open-Source.git/setup.sh -o setup.sh
 
 # Gör exekverbart & kör
 chmod +x setup.sh
