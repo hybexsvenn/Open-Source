@@ -1,12 +1,17 @@
 # Open-Source
 Installing Open WebUI, LiteLLM, NginxProxyManager &amp; n8n
 
-# Gå till hemkatalogen
-cd ~
-
 # Hämta skriptet
-curl -fsSL https://github.com/hybexsvenn/Open-Source.git/setup.sh -o setup.sh
-
-# Gör exekverbart & kör
+git clone https://github.com/hybexsvenn/Open-Source.git
+cd Open-Source
 chmod +x setup.sh
 sudo ./setup.sh
+
+# Gå till hemkatalogen
+cd Open-Source
+
+# Gör exekverbart & kör
+sed -i 's/\r$//' setup.sh
+chmod +x setup.sh
+sudo ./setup.sh
+
